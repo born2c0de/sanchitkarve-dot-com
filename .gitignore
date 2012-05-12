@@ -1,4 +1,13 @@
 .htaccess
+umds/includes/constants.php
+fbplatform/*
+blog/*
+old/*
+quick/*
+resume/sanchitkarve_resume_*.pdf
+_ori*
+*.png
+*.PNG
 wp-*.php
 xmlrpc.php
 wp-admin/
