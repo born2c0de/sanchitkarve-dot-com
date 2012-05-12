@@ -73,7 +73,7 @@ I love any activity that involves parting with technology (temporarily) to under
 </div>
 <!-- end page -->
 <div id="footer">
-	<p class="legal">Copyright © 2011 Sanchit Karve. All rights reserved.</p>
+	<p class="legal">Copyright © 2012 Sanchit Karve. All rights reserved.</p>
 	<p class="credit"><a href="design/">Designed by Sanchit Karve</a></p>
 </div>
 </body>
