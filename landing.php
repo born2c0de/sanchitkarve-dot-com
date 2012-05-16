@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Sanchit Karve</title>
@@ -11,7 +11,7 @@
 <div id="userpage-layout-about-header" class="">
 <div id="name_custom_font">
 <h1 id="userpage-layout-about-name" class="color_6" style="visibility: visible;word-wrap: break-word;line-height: 100%;font-weight: normal;margin: 0 0 20px 0;color: #f60;font-family: Arial">Sanchit Karve
-<span style="font-size: 12px; color: #ccc">pronounced: Sun&#149;chit Kurr&#149;way</span>
+<span style="font-size: 12px; color: #ccc">pronounced: Sun &#8226; chit&nbsp;&nbsp;&nbsp;Kurr &#8226; way</span>
 </h1>
 </div>
 </div>
@@ -24,6 +24,9 @@
 </div>
 <div style="position: fixed;font-family: Lucida Grande, Tahoma;z-index: 3000;bottom: 10px;left: 0">
 <p style="color: #fff; width: 160px; visibility:hidden">Why are you looking at my Source code? Get a Life.</p>
+<p><a href="http://validator.w3.org/check?uri=referer">
+<img src="images/html5_logo.png" alt="Valid HTML5 Logo" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+</a></p>
 </div>
 </div>
 </body>
