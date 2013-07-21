@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Facebook Redirect Fixer - Sanchit Karve</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../../css/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="banner"><img src="../../images/banner2.jpg" alt="" /></div>
+<div id="menu">
+	<ul>
+		<li class="first"><a href="../../index.php" accesskey="1" title="">Home</a></li>
+		<li><a href="../../projects/" accesskey="2" title="">Projects</a></li>
+		<li><a href="http://www.sanchitkarve.com/blog" accesskey="3" title="">Blog</a></li>
+		<li><a href="../../tutorials/" accesskey="4" title="">Tutorials</a></li>
+		<li><a href="../../resume/" accesskey="4" title="">Résumé</a></li>
+		<li><a href="../../calendar/" accesskey="6" title="">Calendar</a></li>
+		<li><a href="../../gradschool" accesskey="4" title="">Graduate School</a></li>
+		<li><a href="../../faq/" accesskey="5" title="">FAQs</a></li>		
+		<li><a href="../../contact/" accesskey="6" title="">Contact</a></li>
+	</ul>
+</div>
+<hr />
+<!-- start page -->
+<div id="page">
+	<!-- start content -->
+	<div id="content">
+		<div class="post">
+			<h1 class="title">Facebook Redirect Fixer</h1>
+			<div class="entry">
+				<h3>Reclaim your privacy</h3>				
+			</div>
+		</div>
+		<div style="margin-bottom:20px;"></div>
+		<div class="post">
+			<h2 class="title"><a href="#">Description</a></h2>
+			<div class="entry">				
+				<p><a href="http://farm7.staticflickr.com/6170/6185789175_41f41c843d_z.jpg">There's a reason why Facebook is free.</a> Every time you post a status update, upload a picture or click a link, facebook stores that information and uses it for targeted advertizing.</p>
+				<p>Facebook Redirect Fixer helps stop facebook from knowing which external links you click (and visit) on their website. I recommend using <strong>Facebook Redirect Fixer</strong> (for protecting your browsing habits) in combination with <strong><a href="https://priv.ly/">Privly</a></strong> (for protecting your content) to reclaim your privacy on facebook.</p>				
+			</div>
+			<div style="margin-bottom:20px;"></div>						
+		</div>
+		<div class="post">
+			<h2 class="title"><a href="#">How does it work?</a></h2>
+			<div class="entry">				
+				<p>To understand how Facebook Redirect Fixer works, it's important to understand how facebook collects your data.</p>
+				<p>When you click on an external link on a regular website, your browser connects directly to the external link. However, when you click on an external link on facebook, your browser is instructed to connect to a facebook server which first logs the website that you're trying to visit and then requests your browser to visit the external web page. For example, every external link you click on facebook takes your browser to this page:</p>
+				<p><strong>http://www.facebook.com/l.php?u=[the website you want to visit]&amp;h=[SecurityCode]</strong></p>
+				<ul>
+					<li>The code present in <strong>l.php</strong> on facebook.com stores the website against your account name in their internal database.</li>
+					<li><strong>u</strong> is a parameter sent to <strong>l.php</strong> which contains the website that you intend to visit.</li>
+					<li><strong>h</strong> is a parameter sent to <strong>l.php</strong> which contains a security code. If this code is not present or is incorrect, facebook will display a message that looks like this:</li>
+				</ul>
+					<p><img alt="PocketFare - Mumbai Logo" src="fbsecurity.png" style="display:block; margin-left: auto; margin-right: auto" /></p>				
+				<p>Facebook also uses this redirection service as a security measure to warn users about potentially visiting a harmful website. If you share a link to one of your friends, a security code is sent as the <strong>h</strong> parameter to <strong>l.php</strong> so that the warning shown above is bypassed.</p>
+				<p>This is a great feature from a security standpoint, but it comes at the cost of privacy. Unfortunately, it gets much worse.</p>
+				<p>Since the only way for facebook to ensure that it knows which websites you click is to format every external link to look like the url in the address bar in the screenshot, it must change the actual location of the link you share. But if it does that, a user would know where a URL is really pointing to simply by hovering your mouse over a link and looking at your browser tooltip for the actual location of the link. "For your convenience", facebook adds the following event handlers for every external link that you post on facebook. Click the thumbnail too see the details.</p>				
+				<p><a href="fbswap2.png"><img alt="PocketFare - Mumbai Logo" src="fbswap2.png" height="100%" width="100%" style="display:block; margin-left: center; margin-right: center" /></a></p>		
+				<p>Facebook Redirection Fixer removes any redirection attempt on facebook using an injected script. Since there usually are quite a lot of external links on facebook, this redirection killer only activates when you hover your mouse over a link to avoid causing performance problems.</p>
+			</div>
+			<div style="margin-bottom:20px;"></div>						
+		</div>
+		<div class="post">
+			<h2 class="title"><a href="#">Where do I get Facebook Redirection Fixer?</a></h2>
+			<div class="entry">				
+				<ul>
+					<li><a href="https://addons.opera.com/en/extensions/details/facebook-redirect-fixer/?display=en">Download for Opera Browser on the Opera Extensions catalog.</a></li>					
+					<li><a href="#">Download for Google Chrome on the Chrome Extensions catalog.</a></li>										
+				</ul>
+			</div>
+			<div style="margin-bottom:20px;"></div>
+		</div>		
+		<div class="post">
+			<h2 class="title"><a href="#">Can I really trust this extension?</a></h2>
+			<div class="entry">				
+				<p>Yes. The source code for Facebook Redirect Fixer is available on GitHub for each browser so you can see how it really works.</p>
+				<ul>
+					<li><a href="https://github.com/born2c0de/facebook-redirect-fixer">Source code for Opera 12.x - Opera 14.x</a></li>
+					<li><a href="https://github.com/born2c0de/facebook-redirect-fixer-opera15">Source code for Opera 15.x onwards</a></li>
+					<li><a href="https://github.com/born2c0de/facebook-redirect-fixer-chrome">Source code for Google Chrome</a></li>					
+				</ul>				
+			</div>
+			<div style="margin-bottom:20px;"></div>						
+		</div>		
+		<div class="post">
+			<h2 class="title"><a href="#">Can I use your source code to create browser extensions to fix redirections on other websites (like Google, Twitter, etc.)?</a></h2>
+			<div class="entry">
+			<p>Yes!</p>				
+			</div>
+			<div style="margin-bottom:20px;"></div>						
+		</div>
+		<div class="post">
+			<h2 class="title"><a href="#">Known Issues</a></h2>
+			<div class="entry">
+				<ul>
+					<li><p>None at the moment. Let me know if you find something.</p></li>									
+				</ul>				
+			</div>
+			<div style="margin-bottom:20px;"></div>						
+		</div>		
+	</div>
+	<!-- end content -->
+	<!-- start sidebar -->
+	<div id="sidebar">
+		<ul>			
+			<li>
+				<h2>Did You Know?</h2>
+				<ul>
+					<li>Almost every major website today uses a redirection service similar to Facebook's.</li>
+					<li>You can fix <a href="https://addons.opera.com/en/extensions/details/twitter-redirect-fixer/?display=en">Twitter Redirects for Opera</a> by using another one of my extensions.</li>					
+				</ul>
+			</li>			
+			<li>
+			<h2>Valid Website Code</h2>
+			<p>Coded for the Web, not the Browser.</p>
+            <p><a href="http://validator.w3.org/check?uri=referer"><img src="../images/html5_valid.png" alt="Valid HTML5" /></a><a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3"><img src="../images/css3_valid.png" alt="Valid CSS3" /></a></p>
+			</li>
+		</ul>
+	</div>
+	<!-- end sidebar -->
+</div>
+<!-- end page -->
+<div id="footer">
+	<p class="legal">Copyright © 2013 Sanchit Karve. All rights reserved.</p>	
+	<p class="credit"><a href="../../design/">Designed by Sanchit Karve</a></p>	
+</div>
+</body>
+</html>
